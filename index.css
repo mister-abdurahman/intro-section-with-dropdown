@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+}
+.main-page {
+  height: 100vh;
+}
+.main-page nav {
+  padding: 40px 30px;
+}
+.main-page nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+.main-page nav ul .left {
+  display: flex;
+  align-items: center;
+}
+.main-page nav ul .left .logo {
+  margin-right: 60px;
+}
+.main-page nav ul .left .buttons {
+  margin-inline: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  color: hsl(0, 0%, 41%);
+  transition: 0.5s;
+}
+.main-page nav ul .left .buttons:hover {
+  color: hsl(0, 0%, 8%);
+}
+.main-page nav ul .left .buttons img {
+  margin-left: 5px;
+}
+
+.main-page nav ul .right {
+  display: flex;
+}
+.main-page nav ul .right li {
+  margin-inline: 30px;
+}
+.main-page nav ul .right li button {
+  border: none;
+  background-color: transparent;
+  color: hsl(0, 0%, 41%);
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.main-page nav ul .right li button:hover {
+  color: hsl(0, 0%, 8%);
+  border-color: hsl(0, 0%, 8%);;
+}
+.main-page nav ul .right li button.second-btn {
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
+}
