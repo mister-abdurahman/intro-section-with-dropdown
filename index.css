@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Epilogue", sans-serif;
+  background-color: hsl(0, -0%, 98%);
 }
 .main-page {
   height: 100vh;
@@ -53,10 +54,91 @@
 }
 .main-page nav ul .right li button:hover {
   color: hsl(0, 0%, 8%);
-  border-color: hsl(0, 0%, 8%);;
+  border-color: hsl(0, 0%, 8%);
 }
 .main-page nav ul .right li button.second-btn {
   border: 1px solid black;
   border-radius: 15px;
   text-align: center;
+}
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+}
+.wrapper .left {
+  width: 60%;
+  padding: 50px;
+}
+.wrapper .left h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+.wrapper .left p {
+  font-size: 20px;
+  color: hsl(0, 0%, 41%);
+  line-height: 25px;
+  margin-bottom: 60px;
+  width: 400px;
+}
+.wrapper .left button {
+  color: white;
+  background-color: black;
+  padding: 15px 25px;
+  border: 1px solid hsl(0, 0%, 8%);
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 120px;
+  transition: 0.5s;
+}
+.wrapper .left button:hover {
+  color: hsl(0, 0%, 8%);
+  background-color: white;
+  border-color: hsl(0, 0%, 8%);
+}
+/* .wrapper .left .footer-icons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+} */
+.wrapper .left .footer-icons img {
+  margin-inline: 20px;
+}
+.wrapper .right {
+  width: 40%;
+}
+.wrapper .right img {
+  width: 100%;
+  padding: 30px;
+}
+.blog {
+  width: 140px;
+  /* background-color: white; */
+  box-shadow: 0 0 10px hsl(0, 0%, 73%);
+  border-radius: 10px;
+  text-align: left;
+  padding: 10px 5px;
+  padding-left: 20px;
+  position: absolute;
+  top: 85px;
+  left: 150px;
+}
+.blog p {
+  margin: 10px 0;
+}
+.feature-blog img {
+  margin-right: 5px;
+}
+.company-blog {
+  width: 100px;
+  left: 335px;
+  text-align: center;
+  padding-left: 0%;
+  padding: 5px;
+}
+.hidden {
+  display: none;
 }
